@@ -1,0 +1,29 @@
+.wrapper {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 1500px) {
+  .wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.header {
+  width: 100vw;
+  height: 10px;
+  margin-top: 100px;
+  background-color: black;
+}
+/*
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+*/
