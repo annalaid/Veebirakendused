@@ -1,0 +1,70 @@
+<select class="selectpicker">
+    <option data-content="<img srcimg/et.png>">Eesti</option>
+    <option { img src="img/en.png" }>English</option>
+    <option img src="img/fi.png">Suomi</option>
+    <option img src="img/ru.png"> Русский</option>
+</select>
+
+<div class="d-flex gap-5 justify-content-center">
+    <ul class="dropdown-menu mx-0 shadow" style="width: 220px;">
+        <li>
+            <a class="dropdown-item d-flex gap-2 align-items-center" href="#">
+                <svg class="bi" width="16" height="16">
+                    <use xlink:href="img/et.png" />
+                </svg>
+                Eesti
+            </a>
+        </li>
+        <div class="dropdown-menu">
+            <a class="dropdown-item est" img src="img/et.png" href="#">Eestik</a>
+            <a class="dropdown-item eng" img src="img/en.png" href="#">English</a>
+            <a class="dropdown-item fin" img src="img/fi.png'" href="#">Suomi</a>
+            <a class="dropdown-item rus" img src="img/ru.png" href="#">Русский</a>
+        </div>
+    </ul>
+</div>
+
+<div class="d-grid">
+    <a class="nav-link active" href="index.html">ESILEHT</a>
+    <a class="nav-link active" href="#">UUS</a>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+
+
+
+
+
+    
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="furniture" href="#">MÖÖBEL</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="cart" href="#">VALGUSTID</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="cart" href="#">AKSESSUAARID</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="cart" href="#">KÖÖKI</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="cart" href="#">TEKSTIILID</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="cart" href="#">TARVIKUD</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="furniture" href="#">LEIUNURK</a>
+    </li>
+    </ul>
+
+
+    <ul class="nav-dropdown">
+
+    </ul>

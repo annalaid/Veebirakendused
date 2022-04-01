@@ -1,15 +1,84 @@
-.wrapper {
-  margin-left: 15%;
-  margin-right: 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.navbar {
+    width: 100%;
+    background-color: rgba(247, 245, 239, 255);
+    min-height: 50px;
+    margin-top: auto;
+}
+
+.site-header {
+    max-width: 100%;
+    height: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.nav-link {
+    color:#555555;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+    font: 'Guess Sans Semi Bold';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.link a:hover {
+    color: #814d09;
+}
+
+.dropbtn {
+    font: 'Guess Sans Semi Bold';
+    color: #555555;
+    background-color: #FFFFFF;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    font: 'Guess Sans Semi Bold';
+    background-color: #FFFFFF;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    color: #555555;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: #814d09;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #814d09;
+}
+
+∆ .wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
 /*
