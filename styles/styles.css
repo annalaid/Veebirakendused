@@ -25,7 +25,6 @@ footer p {
 }
 
 footer .footer {
-  display: inline;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
