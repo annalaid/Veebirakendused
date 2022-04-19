@@ -3,9 +3,7 @@ footer {
   width: 100%;
   height: auto;
   margin-bottom: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding-top: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -15,8 +13,13 @@ footer {
 }
 
 footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
   font-size: smaller;
 }
@@ -48,6 +51,67 @@ footer img {
   height: 40px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+footer .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 15%;
+  padding-bottom: 30px;
+  font-size: medium;
+}
+
+footer .information h3 {
+  font-size: medium;
+}
+
+footer .information .help ul {
+  margin: 5px;
+  padding: 0;
+}
+
+footer .information .help a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+footer .support p {
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+footer .socials svg {
+  height: 25px;
+  width: auto;
+  margin-right: 10px;
+}
+
+footer .newsletter form > * {
+  margin-top: 15px;
+}
+
+footer .newsletter button {
+  width: 70px;
+  height: auto;
+  border-radius: 0%;
+  border-color: gray;
+  background-color: #814d08;
+}
+
+footer .newsletter button:hover {
+  background-color: #b06a0b;
+  border-color: gray;
+}
+
+footer .newsletter input {
+  border-radius: 0%;
+  border-color: black;
 }
 
 /*
